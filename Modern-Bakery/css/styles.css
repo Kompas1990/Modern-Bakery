@@ -1,0 +1,74 @@
+:root {
+  --color-brand-ligt: #819b57;
+  --color-brand-dark: #465929;
+  --primary-color-light: #faf4ea;
+  --primary-color-dark: #31261a;
+}
+
+/* Base */
+body {
+  color: var(--primary-color-dark);
+}
+ul {
+  list-style-type: none;
+}
+
+.button {
+  background-color: var(--color-brand-light);
+  color: var(--primary-color-light);
+  border: 2px solid var(--color-brand-ligt);
+  padding: top 16px right 32px bottom 16px left 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
+
+/* Link */
+.link {
+  color: var(--primary-color-light);
+}
+
+.link:hover {
+  color: var(--color-brand-ligt);
+}
+
+/* Hro section */
+.hero-title {
+  color: var(--primary-color-light);
+}
+.hero-title .accent {
+  color: var(--color-brand-ligt);
+}
+/* Adventsges Section */
+.advantages-list {
+  color: var(--primary-color-light);
+  background-color: var(--color-brand-ligt);
+}
+/* section-title */
+.section-title {
+  color: var(--primary-color-dark);
+}
+.section-title .accent {
+  color: var(--color-brand-dark);
+}
+
+/* accent */
+.accent {
+  color: var(--color-brand-ligt);
+}
+/* Confidentiality */
+.confidentiality {
+  color: var(--color-brand-dark);
+}
+
+/* Formats-section */
+.formats-section {
+  color: var(--primary-color-light);
+}
+.data {
+  color: var(--primary-color-dark);
+}
